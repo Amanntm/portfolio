@@ -1,4 +1,22 @@
-*, html{
-  padding:0;
-  margin:0;
+*, html, body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
 }
+
+/*FLEX*/
+.flex-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.flex-box .box{
+  padding: 10px;
+ 
+  background-color: aqua;
+}
+/*FLEX*/
